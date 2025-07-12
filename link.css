@@ -1,12 +1,24 @@
 div{
   background: linear-gradient(red,yellow);
   height: 200px;
-  width: 100px;
-  border:10px solid ;
-  box-shadow:10px 5px 10px solid black;
-  margin:5px
-}
+  width: 100px;}
 h2{
   text-transform:capitalize;
   text-shadow:10px 10px #000;
+}
+a{background-color: aqua; padding: 5px;border-radius: 5px;}
+a:link{color:#0abde3; text-decoration: none;}
+a:visited{color: yellow; transition: 1s;}
+a:hover{background-color: tomato; transition: 1s;}
+button{
+  color: red;
+  border-radius: 5px;
+  background-color: #0abde3;
+  margin: 1px solid white;
+}
+div.up{
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  padding-left: 100px;
 }
