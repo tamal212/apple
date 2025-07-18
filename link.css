@@ -1,5 +1,6 @@
-div{
-  background: linear-gradient(red,yellow);
+*{margin: 0;}
+div.up{
+  background:linear-gradient( red, blue);
   height: 200px;
   width: 100px;}
 h2{
@@ -22,3 +23,8 @@ div.up{
   background-color: green;
   padding-left: 100px;
 }
+div.ok{height: 300px; width: 500px; background-color: #009432; position: relative;}
+div.ok::before{content: ""; height: 170px; width: 170px; background: #EA2027; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 50%;}
+#main{}
+.child{background:#f1c40f ; color:#ffffff ;}
+.child:nth-child(odd){background:#EA2027 ;}

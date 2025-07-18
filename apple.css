@@ -2,22 +2,32 @@
   display: flex;
   gap: 23px;
 }
-.pic{
-  height: 300px;
-  width: 100%;
-}
+.pic{height: 300px; width: 100%;}
 .me{
 width: 70%;
 }
-a{
-  color:#ffffff ;
-  background-color: red;
-  border: 1px solid black;
-  text-decoration: none;
-}
+a{color:#ffffff ; background-color: red;border: 1px solid black;
+  text-decoration: none;}
 .show{
   background-image: url("e.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
+div li{display: inline-block;
+width: 50px; padding: 2px; text-align: center; background-color: ;}
+div a{display: block; }
+a:hover{background-color: #f0f000;}
+ul{text-align: left;}
+.back{height: 70px; width: 150px; background-color:#27ae60 ; position: relative;}
+.back::before{content: ""; height: 50px; width: 50px; background:#EA2027 ; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%;}
+abbr{text-decoration: none;}
+
+#main{display: flex; flex-direction: row; justify-content: space-between;}
+#main div{padding: 10px; flex: basis 40% ;}
+#main .child1{background: #EA2027;}
+#main .child2{ background: #f0f000;}
+#main .child3{background:#1abc9c ;}
+#main .child4{background: #d35400;}
+@media only screen and (min-width: 200px) and (max-width:760px){#main{ flex-direction: column;}}     
+ 
